@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad
 {
+    self.objectsToShare = @[self.textView.text];
     // Customize appearance.
     UIColor *backgroundBlueTint = RGBColor(35.0, 141.0, 207.0);
     self.textView.tintColor = backgroundBlueTint;
@@ -59,17 +60,20 @@
 
 - (void)textViewDidBeginEditing:(UITextView *)textView
 {
+    self.objectsToShare = @[textView.text];
     // Display the 'Done' button.
     [self showDoneButton];
 }
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
+    self.objectsToShare = @[textView.text];
     return YES;
 }
 
 - (void)textViewDidEndEditing:(UITextView *)textView
 {
+    self.objectsToShare = @[textView.text];
     // Hide the 'Done' button.
     [self hideDoneButton];
 }

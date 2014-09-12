@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A78EC93-4C14-4345-9674-BE7B3A40B260</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DropMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FCCBEDB4-0ECC-49C2-9B52-BE367BFD0ECD</key>
+		<string>https://github.com/perrychen901105/DropMe_AirDrop</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DropMe.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FCCBEDB4-0ECC-49C2-9B52-BE367BFD0ECD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/perrychen901105/DropMe_AirDrop</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FCCBEDB4-0ECC-49C2-9B52-BE367BFD0ECD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FCCBEDB4-0ECC-49C2-9B52-BE367BFD0ECD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DropMe_AirDrop</string>
+		</dict>
+	</array>
+</dict>
+</plist>

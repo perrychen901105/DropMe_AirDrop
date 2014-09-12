@@ -5,7 +5,7 @@
 //  Created by Soheil Azarpour on 6/25/13.
 //  Copyright (c) 2013 Razeware LLC. All rights reserved.
 //
-
+#import "BaseViewController.h"
 @import UIKit;
 
 /*
@@ -13,6 +13,6 @@
  * in plain text format and share it via AirDrop.
  */
 
-@interface StringViewController : UIViewController
+@interface StringViewController : BaseViewController
 
 @end

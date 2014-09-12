@@ -30,6 +30,7 @@
 		6DD383E0177A94B4002C8606 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD383DF177A94B4002C8606 /* ImageViewController.m */; };
 		6DD383E3177A9CE0002C8606 /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD383E2177A9CE0002C8606 /* URLViewController.m */; };
 		6DDC08A51794A65F00CFC768 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC08A41794A65F00CFC768 /* NavigationController.m */; };
+		C2DB19BE19C2BEB500E6017B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DB19BD19C2BEB500E6017B /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		6DD383E2177A9CE0002C8606 /* URLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = URLViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		6DDC08A31794A65F00CFC768 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		6DDC08A41794A65F00CFC768 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		C2DB19BC19C2BEB500E6017B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C2DB19BD19C2BEB500E6017B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				6DD383D0177A609F002C8606 /* Storyboard.storyboard */,
 				6DD383AE177A6043002C8606 /* AppDelegate.h */,
 				6DD383AF177A6043002C8606 /* AppDelegate.m */,
+				C2DB19BC19C2BEB500E6017B /* BaseViewController.h */,
+				C2DB19BD19C2BEB500E6017B /* BaseViewController.m */,
 				6DDC08A31794A65F00CFC768 /* NavigationController.h */,
 				6DDC08A41794A65F00CFC768 /* NavigationController.m */,
 				6DD383D8177A68A9002C8606 /* StringViewController.h */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD383E3177A9CE0002C8606 /* URLViewController.m in Sources */,
+				C2DB19BE19C2BEB500E6017B /* BaseViewController.m in Sources */,
 				6DD383DA177A68A9002C8606 /* StringViewController.m in Sources */,
 				6DDC08A51794A65F00CFC768 /* NavigationController.m in Sources */,
 				6D4573E0177D3CF6007AB440 /* DocumentsViewController.m in Sources */,
@@ -427,13 +433,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei zhou (6XNV3B3N8E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wei zhou (6XNV3B3N8E)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
 				INFOPLIST_FILE = "DropMe/DropMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "4c22388e-61aa-442e-a409-8c85419961b7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -443,13 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: wei zhou (6XNV3B3N8E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: wei zhou (6XNV3B3N8E)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DropMe/DropMe-Prefix.pch";
 				INFOPLIST_FILE = "DropMe/DropMe-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "4c22388e-61aa-442e-a409-8c85419961b7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
