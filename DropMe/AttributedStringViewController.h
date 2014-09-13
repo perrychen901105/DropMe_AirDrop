@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Razeware LLC. All rights reserved.
 //
 
+#import "BaseViewController.h"
+
 @import UIKit;
 
 /*
@@ -13,6 +15,6 @@
  * in rich text format and share it via AirDrop.
  */
 
-@interface AttributedStringViewController : UIViewController
+@interface AttributedStringViewController : BaseViewController
 
 @end
