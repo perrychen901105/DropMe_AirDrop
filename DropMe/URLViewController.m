@@ -55,6 +55,7 @@
  */
 - (void)loadURL:(NSURL *)URL
 {
+    self.objectsToShare = @[URL];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     [self.webView loadRequest:request];
 }
@@ -101,6 +102,8 @@
 {
     if (navigationType == UIWebViewNavigationTypeLinkClicked)
     {
+        self.textField.text = request.URL.absoluteString;
+        self.objectsToShare = @[request.URL];
     }
     
     return YES;

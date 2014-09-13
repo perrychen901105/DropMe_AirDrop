@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Razeware LLC. All rights reserved.
 //
 
+#import "BaseViewController.h"
 @import UIKit;
 
 /*
@@ -13,6 +14,6 @@
  * and share a link to a web page via AirDrop.
  */
 
-@interface URLViewController : UIViewController
+@interface URLViewController : BaseViewController
 
 @end
