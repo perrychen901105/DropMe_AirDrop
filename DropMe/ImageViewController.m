@@ -76,13 +76,14 @@
     {
         // Update UI and the object to share.
         self.imageView.image = info[UIImagePickerControllerOriginalImage];
+        self.objectsToShare = @[info[UIImagePickerControllerOriginalImage]];
     }
     // else, if it is a movie...
     else if ([mediaType isEqualToString:(NSString *)kUTTypeMovie])
     {
         // Get the URL to the movie for sharing
         NSURL *assetURL = info[UIImagePickerControllerMediaURL];
-        
+        self.objectsToShare = @[assetURL];
         // Update UI by taking an snapshot of the movie.
         self.imageView.image = [self snapshotFromMovieAtURL:assetURL];
     }

@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 Razeware LLC. All rights reserved.
 //
 
+#import "BaseViewController.h"
 @import UIKit;
 
-@interface DocumentsViewController : UIViewController
+@interface DocumentsViewController : BaseViewController
 
 @end

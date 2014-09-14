@@ -5,7 +5,7 @@
 //  Created by Soheil Azarpour on 6/25/13.
 //  Copyright (c) 2013 Razeware LLC. All rights reserved.
 //
-
+#import "BaseViewController.h"
 @import UIKit;
 
 /*
@@ -14,6 +14,6 @@
  * or record a video with device camera and share it via AirDrop.
  */
 
-@interface ImageViewController : UIViewController
+@interface ImageViewController : BaseViewController
 
 @end

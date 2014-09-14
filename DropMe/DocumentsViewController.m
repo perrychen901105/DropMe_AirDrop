@@ -78,8 +78,8 @@
                 NSString *fileExtension = file.pathExtension;
                 
                 // If it is a DropMe custom file type, add it to the array.
-                NSArray *acceptableFileTypes = @[kUTTypeDropMe];
-                NSArray *acceptableFileExtensions = @[@"dm"];
+                NSArray *acceptableFileTypes = @[kUTTypeDropMe,(NSString *)kUTTypePDF];
+                NSArray *acceptableFileExtensions = @[@"dm",@"pdf"];
                 if ([acceptableFileTypes containsObject:fileType] || [acceptableFileExtensions containsObject:fileExtension])
                 {
                     [documents addObject:file];
@@ -197,6 +197,8 @@
     {
         [self.toShare addObject:document];
     }
+    
+    self.objectsToShare = [self.toShare copy];
 }
 
 /*
@@ -204,6 +206,7 @@
  */
 - (void)updateViewWithNotification:(NSNotification *)notification
 {
+    self.objectsToShare = nil;
     self.toShare = nil;
     self.documents = nil;
     [self.tableView reloadData];

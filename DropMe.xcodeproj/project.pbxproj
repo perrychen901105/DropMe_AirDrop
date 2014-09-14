@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8546FA19C5D524003314B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8546F919C5D524003314B0 /* AudioToolbox.framework */; };
 		6D003C0417C8813C00A78F98 /* fileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D003C0217C8813C00A78F98 /* fileIcon.png */; };
 		6D003C0517C8813C00A78F98 /* fileIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D003C0317C8813C00A78F98 /* fileIcon@2x.png */; };
 		6D39F9CD177F27320006E65A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D39F9CC177F27320006E65A /* Images.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C8546F919C5D524003314B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		6D003C0217C8813C00A78F98 /* fileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fileIcon.png; sourceTree = "<group>"; };
 		6D003C0317C8813C00A78F98 /* fileIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fileIcon@2x.png"; sourceTree = "<group>"; };
 		6D39F9CC177F27320006E65A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8546FA19C5D524003314B0 /* AudioToolbox.framework in Frameworks */,
 				6DD383A2177A6043002C8606 /* CoreGraphics.framework in Frameworks */,
 				6DD383A4177A6043002C8606 /* UIKit.framework in Frameworks */,
 				6DD383A0177A6043002C8606 /* Foundation.framework in Frameworks */,
@@ -138,6 +141,7 @@
 		6DD3839E177A6043002C8606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C8546F919C5D524003314B0 /* AudioToolbox.framework */,
 				6D60DA211783C0870037737C /* libz.dylib */,
 				6D60DA1F1783C0360037737C /* libTestFlight.a */,
 				6DD3839F177A6043002C8606 /* Foundation.framework */,

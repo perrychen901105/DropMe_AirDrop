@@ -50,6 +50,7 @@
     // Append the current date-time to the beginning of the file to
     // avoid conflicts.
     NSString *fileName = [NSString stringWithFormat:@"%@-%@", FormattedStringWithDate([NSDate date]), url.lastPathComponent];
+    NSLog(@"file name %@",fileName);
     NSURL *destinationURL = [UserDocumentsDirectory() URLByAppendingPathComponent:fileName];
     NSError *error = nil;
     BOOL success = [[NSFileManager defaultManager] moveItemAtURL:url toURL:destinationURL error:&error];

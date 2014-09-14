@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface BaseViewController ()
 
@@ -58,7 +59,14 @@
                                     UIActivityTypePostToTencentWeibo];
     
     controller.excludedActivityTypes = excludedActivities;
-    
+    controller.completionHandler = ^(NSString *activityType, BOOL completed){
+        NSLog(@"activity type is %@",activityType);
+        if ([activityType isEqualToString:@"com.apple.UIKit.activity.AirDrop"]) {
+//            if (completed == YES) {
+                AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+//            }
+        }
+    };
     // 3 - Present it.
     [self presentViewController:controller animated:YES completion:nil];
 }
